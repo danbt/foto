@@ -1,5 +1,5 @@
-import type { NextPage } from "next";
-import MyToggle from "../components/Switch";
+import type { NextPage } from 'next';
+import MyToggle from '../components/Switch';
 
 const Home: NextPage = () => {
   return (
