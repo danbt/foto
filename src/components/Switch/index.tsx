@@ -8,7 +8,7 @@ export default function MyToggle() {
     <div className="flex items-center justify-center p-12">
       <div className="w-full max-w-xs mx-auto">
         <Switch.Group as="div" className="flex items-center space-x-4">
-          <Switch.Label>Enable notifications</Switch.Label>
+          <Switch.Label>'Enable notifications'</Switch.Label>
           <Switch
             as="button"
             checked={switchValue}
