@@ -1,4 +1,5 @@
 // import { getGalleryImages } from '@/services/flickr';
+import UserProfile from '@/components/User';
 import type { NextPage } from 'next';
 // import { useQuery } from 'react-query';
 
@@ -25,7 +26,9 @@ const Home: NextPage = () => {
   return (
     <>
       <h1 className="text-5xl">Hello Dan</h1>
-      <div></div>
+      <div>
+        <UserProfile />
+      </div>
     </>
   );
 };
