@@ -5,8 +5,8 @@ export default function MyToggle() {
   const [switchValue, setSwitchValue] = useState(false);
 
   return (
-    <div className="flex items-center justify-center p-12">
-      <div className="w-full max-w-xs mx-auto">
+    <div className="flex justify-center items-center p-12">
+      <div className="mx-auto w-full max-w-xs">
         <Switch.Group as="div" className="flex items-center space-x-4">
           <Switch.Label>Enable notifications</Switch.Label>
           <Switch
